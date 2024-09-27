@@ -25,7 +25,9 @@ AND date = 20180115
 AND city = "SQL City";
 
 
-Output: ![image](https://github.com/user-attachments/assets/ca96cb6d-55c8-430c-9751-9fcd996ae703)
+Output:
+
+![image](https://github.com/user-attachments/assets/ca96cb6d-55c8-430c-9751-9fcd996ae703)
 
  
 
@@ -47,6 +49,8 @@ ORDER BY address_number DESC;
 
 
 Output:
+
+
 ![image](https://github.com/user-attachments/assets/61ce4390-0f42-4915-a229-7b86db6787d9)
 
 
@@ -86,6 +90,8 @@ WHERE membership_id LIKE '48Z%'
 AND check_in_date = "20180109";
 
 Output:
+
+
  ![image](https://github.com/user-attachments/assets/d9a6f9d0-47f6-45a5-8cf7-166bb1553b8e)
 
 
@@ -99,6 +105,8 @@ AND plate_number LIKE '%H42W%';
 
 
 Output:
+
+
  ![image](https://github.com/user-attachments/assets/bc91b6bc-e1c8-4acf-926f-ea6f2338c3de)
 
 
@@ -108,6 +116,8 @@ FROM person
 WHERE license_id IN ("423327", "664760");
 
 Output:
+
+
  ![image](https://github.com/user-attachments/assets/154c93b4-1d91-409b-bb08-5ff0a372917d)
 
 
@@ -117,6 +127,8 @@ FROM get_fit_now_member
 WHERE person_id IN ("51739", "67318");
 
 Output:
+
+
 ![image](https://github.com/user-attachments/assets/791b6147-6cd3-4a9d-8a35-5ed9dcfb27a4)
 
  Jeremy Bowers is the Murderer.
@@ -125,7 +137,10 @@ Output:
  Code 12:
  INSERT INTO solution VALUES (1, 'Jeremy Bowers'); 
 SELECT value FROM solution;
-output:![img 12](https://github.com/user-attachments/assets/2e167f14-0a96-4db6-8d7a-ce14d0f7804e)
+output:
+
+
+![img 12](https://github.com/user-attachments/assets/2e167f14-0a96-4db6-8d7a-ce14d0f7804e)
 
 
 
@@ -133,7 +148,10 @@ Code 13:
 SELECT *
 FROM interview
 WHERE person_id = "67318";
-Output:![img 13](https://github.com/user-attachments/assets/172c1b7c-d1d0-4233-9afb-ee1f356156d9)
+Output:
+
+
+![img 13](https://github.com/user-attachments/assets/172c1b7c-d1d0-4233-9afb-ee1f356156d9)
 
 
 
@@ -148,14 +166,19 @@ WHERE gender = "female"
 	AND car_make = "Tesla"
 	AND car_model = "Model S";
 
- output![img 14](https://github.com/user-attachments/assets/b9a6d1eb-080a-472e-bf3b-173a62765882)
+ output
+ 
+ ![img 14](https://github.com/user-attachments/assets/b9a6d1eb-080a-472e-bf3b-173a62765882)
 
 
  Code 15:
 SELECT *
 FROM person
 WHERE license_id IN ("202298", "291182", "918773");
-Output:![img 15](https://github.com/user-attachments/assets/5ff68d9f-41e0-4572-80c6-06a519e3a409)
+Output:
+
+
+![img 15](https://github.com/user-attachments/assets/5ff68d9f-41e0-4572-80c6-06a519e3a409)
 
 
 
@@ -171,11 +194,17 @@ WHERE person_id IN ("78881", "90700", "99716")
 GROUP BY person_id, event_name;
 WHERE license_id IN ("202298", "291182", "918773");
 
-output:![img 16](https://github.com/user-attachments/assets/b5528dbb-2410-4a96-abd2-10b9b86781c5)
+output:
+
+![img 16](https://github.com/user-attachments/assets/b5528dbb-2410-4a96-abd2-10b9b86781c5)
 
 
 Code 17:
 INSERT INTO solution VALUES (1, 'Miranda Priestly');
 SELECT value FROM solution;
-output:![img 17](https://github.com/user-attachments/assets/8fd50cb0-a671-4347-8e8f-988eba03b3e6)
+output:
+
+![img 17](https://github.com/user-attachments/assets/8fd50cb0-a671-4347-8e8f-988eba03b3e6)
+
+
 ![img 18](https://github.com/user-attachments/assets/c6a25b87-6ab4-4d68-bf1a-66e7343e0ee2)
